@@ -366,6 +366,7 @@ ul {
     color: var(--gray);
     margin-bottom: 32px;
     max-width: 480px;
+    padding: 0 16px;
 }
 
 .hero-cta {
@@ -950,8 +951,13 @@ ul {
         border-radius: 100px 100px 0 0;
     }
 
+    .hero-text {
+        padding: 0 8px;
+    }
+
     .hero-text p {
         max-width: 100%;
+        padding: 0;
     }
 
     .hero-cta {
@@ -1022,6 +1028,19 @@ ul {
         min-height: auto;
     }
 
+    .hero-text {
+        padding: 0 12px;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+        padding: 0;
+    }
+
     .hero-main-image {
         width: 220px;
         height: 220px;
@@ -1082,7 +1101,22 @@ ul {
 
 @media (max-width: 480px) {
     .container {
-        padding: 0 16px;
+        padding: 0 20px;
+    }
+
+    .hero-text {
+        padding: 0;
+    }
+
+    .hero-text h1 {
+        font-size: 1.75rem;
+        padding: 0 8px;
+    }
+
+    .hero-text p {
+        font-size: 0.95rem;
+        padding: 0 8px;
+        line-height: 1.5;
     }
 
     .btn {
@@ -1093,6 +1127,7 @@ ul {
 
     .hero-cta {
         flex-direction: column;
+        padding: 0 8px;
     }
 
     .about-image-grid {
